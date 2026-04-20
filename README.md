@@ -154,30 +154,6 @@ Notes:
 - Phase B: find reachable variables from start symbol
 - Rules containing undefined variable-like symbols (for example `B -> C` where `C` is never defined on LHS) are treated as non-generating and removed
 
-## Deploy on Vercel
 
-1. Push repository to GitHub
-2. Import project in Vercel
-3. Keep framework preset as Next.js
-4. Deploy
 
-No extra server configuration is required.
 
-## Troubleshooting
-
-### Dev server runtime chunk errors (example: missing `.next` module chunk)
-
-If you see errors like `Cannot find module './213.js'` from `.next/server`:
-
-1. Stop dev server
-2. Remove `.next`
-3. Remove `node_modules/.cache` if present
-4. Restart with `npm run dev`
-
-### `node` or `npm` not recognized on Windows
-
-- Install Node.js from official installer
-- Reopen terminal after install so PATH updates are applied
-=======
-# Grammar-simplification
->>>>>>> 19ce783926bdfc917950b533f4bd639739949a7e
