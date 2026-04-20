@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Grammar Simplification Tool
 
 Interactive Next.js app for visualizing Context-Free Grammar (CFG) simplification with a premium dark glassmorphism UI.
